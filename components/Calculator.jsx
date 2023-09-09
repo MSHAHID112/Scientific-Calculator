@@ -15,7 +15,7 @@ export default function Calculator(props) {
     }
 
     return (
-        <div className=' flex flex-col border mx-auto max-w-md'>
+        <div className=' flex flex-col mx-auto max-w-md bg-gray-300/50 sm:rounded-2xl my-5'>
             <Inputfield string={props.string} />
             <div className="flex justify-between px-4 mt-3">
                 <Button text="C" name="C" className='text-red-700 bg-red-200' onClick={handleOnclick} />
@@ -39,7 +39,7 @@ export default function Calculator(props) {
                 <Button text="1" className='bg-green-600 text-black' onClick={handleOnclick} />
                 <Button text="2" className='bg-green-600 text-black' onClick={handleOnclick} />
                 <Button text="3" className='bg-green-600 text-black' onClick={handleOnclick} />
-                <Button text="+" className='bg-gray-400 text-black' onClick={handleOnclick} />
+                <Button text="." className='bg-gray-400 text-black' onClick={handleOnclick} />
             </div>
             <div className="flex justify-between px-4 mt-3">
                 <Button text="(" className='bg-green-600 text-black' onClick={handleOnclick} />

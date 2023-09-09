@@ -8,11 +8,11 @@ export default function Home() {
 		setdisplyString(string)
 	}
 	return (
-		<>
-			<div className="text-xl flex justify-center" >
+		<div className="bg-black">
+			<div className="text-3xl text-white flex justify-center" >
 				<h2 className=''>Scientific Calculator</h2>
 			</div>
 			<Calculator string={displyString} setString={setString} />
-		</>
+		</div>
 	);
 }
