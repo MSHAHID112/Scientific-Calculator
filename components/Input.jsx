@@ -1,17 +1,9 @@
-'use client'
 import React, { useState } from 'react'
-import { useContext } from 'react'
-import  CalculatorContext  from '../context/Display/displayContext'
-export default function Input() {
-
-    // const test = useContext(CalculatorContext);
-    // const { displayString } = test;
-
+export default function Input(props) {
     return (
         <>
-        <input type="text" disabled name="inputfield" id="inputfield" className='h-[100px]' />
-        displayString
-        </>
+            <div name="inputfield" id="inputfield" className='h-[150px] w-full mx-3 flex items-end ml-auto px-2  overflow-x-auto text-2xl' >{props.string}</div>
 
+        </>
     )
 }
