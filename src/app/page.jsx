@@ -23,6 +23,8 @@ export default function Home() {
 
 		<>
 			{/* <input type="color" name="" id="" onChange={handleOnChange} /> */}
+			{/* <input type="color" name="" id="" onChange={handleOnChange} /> */}
+			{/* <input type="color" name="" id="" onChange={handleOnChange} /> */}
 			{/* <button className={`bg-[${primaryColor}] `}>adf adsfadsf</button> */}
 			<div className="bg-black">
 				<div className="text-3xl text-white flex justify-center" >
